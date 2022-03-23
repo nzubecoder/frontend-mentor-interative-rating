@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Outfit', sans-serif;
+    font-size: 11px;
+    background-color:  hsl(217, 54%, 11%);
+    padding: 1.25rem;
+    justify-content: center;
+    border-radius: 0.1rem;
+    display: flex;
+}
+.container{
+    padding: 1.25rem;
+    border-radius: 0.5rem;
+}
+.card{
+    margin-top: 150px;
+    background-color:  hsl(216, 50%, 16%);
+    width: 320px;
+    padding: 20px;
+    border-radius: 10px;
+}
+.icon-star{
+    padding: 5px;
+}
+.quote > h2{
+    color: white;
+    font-size: 20px;
+    margin-top: 5px;
+}
+.quote > p{
+    margin-top: 10px;
+    color: slategray;
+    font-size: 14px;
+}
+.rating-btn{
+    margin-top: 20px;
+    background-color:  hsl(215, 44%, 18%);
+    color: slategray; 
+    border: none;
+    padding: 15px 20px;
+    display: inline-block;
+    font-size: 16px;
+}
+.soco{
+    margin-top: 40px;
+    text-align: center;
+}
+.button_1{
+    background-color:  hsl(25, 97%, 53%);
+    color: white;
+    border: none;
+    padding: 15px 32px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+/* Media Queries */
+@media(max-width: 368px){
+    .card
+    .icon-star
+    .quote
+    .rating-btn
+    .soco
+    .button_1
+}
